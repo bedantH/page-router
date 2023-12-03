@@ -3,12 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Index</title>
+    <title>Docs | Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h2>This is a login page</h2>
-        <button>Login</button>
-    </div>
+    <main class="relative w-[100vw] h-[100vh] bg-slate-100">
+        <div class="absolute w-[30%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+            <h2 class="font-bold text-slate-900 font-[Poppins] text-[30px]">Bring NextJS Page Router to HTML</h2>
+            <p class="mt-[10px] text-slate-900 font-[Poppins]">
+                Use the <b>.JS</b> file from the repo, to enable nextjs style page router in your HTML based websites.
+            </p>
+            <p class="mt-[10px] text-[13px] text-slate-900 font-[Poppins]">
+                It uses the same <code>`pages/`</code> directory, in which you can create multiple .html pages and also use folders to nest these files for better organization
+            </p>
+            <div class="mt-[20px] w-[100%] bg-gray-200 h-[195px] rounded-[10px] py-[20px] px-[30px]">
+                <code>
+                    <pre>
+/pages
+    ├── index.html
+    ├── dashboard
+    │   └── index.html
+    │   └── home.html
+    └── 404.html
+                    </pre>
+                </code>
+            </div>
+
+            <p class="mt-[20px] text-[13px] text-slate-900 font-[Poppins]">
+                Hey!, This is open source, I know this isn't much but I was bored so :)
+            </p>
+            <div class="mt-[20px] flex gap-[4] items-center">
+                <p class="text-[15px] text-slate-900 font-[Poppins]">
+                   Link to Repo:  
+                </p>
+                <a class="ml-[10px] text-blue-600 text-[15px] font-[Poppins]" href="https://github.com/bedantH/page-router">
+                    https://github.com/bedantH/page-router
+                </a>
+            </div>
+            <div class="mt-[20px] w-[100%] bg-gray-200 h-fit rounded-[10px] py-[20px] px-[30px]">
+                <code>
+                    1. Adding file watcher with the http servers <br/>
+                    2. Optimizing the duration to create a Page Directory <br/>
+                    3. Figure out how to cache the Page Directory, to track changes in it.
+                </code>
+            </div>
+
+            <h3 class="mt-[20px] font-bold text-slate-900 font-[Poppins] text-[20px]">
+                Example Pages:
+            </h3>
+            <ul class="pl-[20px] mt-[10px]">
+                <li>
+                    <a class="ml-[10px] text-blue-600 text-[14px] font-[Poppins]" href="/dashboard">/dashboard</a>
+                </li>
+                <li>
+                    <a class="ml-[10px] text-blue-600 text-[14px] font-[Poppins]" href="/dashboard/home">/dashboard/home</a>
+                </li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
