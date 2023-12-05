@@ -9,3 +9,4 @@ Just clone this repo, and run ``yarn dev`` on your terminal and go to ``http://l
     2. Handling more complex directory structures.
     3. Support for dynamic pages.
     
+![image](https://github.com/bedantH/page-router/assets/64542454/8a5d8d00-b2e6-4b0f-afb8-89df08bd522f)
